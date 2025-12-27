@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Yükleniyor...</title>
+  </head>
+  <body>
+    <script>
+      tuzak()
+      // GitHub Pages üzerindeki index.html içindeki kod
+(function tuzak() {
+    console.error("KRİTİK HATA: Veritabanı bağlantısı koptu. Sistem geri yükleniyor...");
+    console.error("Hata Kodu: 0x88234-BOT-DETECTED");
+    
+    // Sayfayı her 100 milisaniyede bir yeniler
+    // Bot tam içeriği okuyacakken sayfa pat diye tekrar yüklenir
+    setTimeout(() => {
+        window.location.reload();
+    }, 100);
+})();
+      
+    </script>
+  </body>
+</html>
